@@ -8,7 +8,7 @@ public class SpawnPlayers : MonoBehaviour
 
     public void spawnPlayerOne()
     {
-        PlayerInput.Instantiate(prefab: playerOnePrefab, playerIndex: 0, controlScheme: "Player01", pairWithDevice: Keyboard.current, splitScreenIndex: 0);
+        PlayerInput.Instantiate(prefab: playerOnePrefab, playerIndex: 0, controlScheme: "Controller", pairWithDevice: Gamepad.current, splitScreenIndex: 0);
     }
     public void spawnPlayerTwo()
     {
